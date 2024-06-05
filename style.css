@@ -12,12 +12,17 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: seagreen;
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .wrapper{
     width: 420px;
-    background: purple;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255 .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
@@ -98,7 +103,7 @@ body{
 .wrapper .register-link {
     font-size: 14.5px;
     text-align: center;
-    margin-top: 20px;
+    margin: 20px 0 15px;
 }
 
 .register-link p a {
