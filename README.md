@@ -14,19 +14,4 @@ This project is a full stack web application featuring a login and sign-up form,
 - **Backend:** Python, Flask
 - **Database:** SQLite
 
-## Installation and Setup
 
-### Prerequisites
-- Python 3.x
-- Flask
-
-### Instructions
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/login-signup-form.git
-   cd login-signup-form
-
-### Run the Flask Application   
-```bash
-python app.py
